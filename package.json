@@ -1,0 +1,33 @@
+{
+  "name": "committee",
+  "version": "0.0.8",
+  "description": "🕶 `committee octocat` Commit as someone else",
+  "keywords": [
+    "commit",
+    "imposter",
+    "impersonate",
+    "identity theft",
+    "🕶"
+  ],
+  "author": "omrilotan",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/omrilotan/committee.git"
+  },
+  "homepage": "https://omrilotan.com/committee/",
+  "bin": "committee.sh",
+  "scripts": {
+    "start": "./committee.sh octocat 🐙 just checking this out",
+    "test": "mocha",
+    "lint": "standard"
+  },
+  "devDependencies": {
+    "async-execute": "^1.1.0",
+    "async-git": "^1.13.3",
+    "chai": "^4.3.4",
+    "eslint-plugin-log": "^1.2.7",
+    "mocha": "^9.1.3",
+    "standard": "^16.0.4"
+  }
+}
